@@ -1,0 +1,1 @@
+../../../KinCoreSDK/KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_scalarmult_curve25519.h

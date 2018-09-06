@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B017739748473787E9769885 /* libPods-KinTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F453D619F8D4E777BF6D79AA /* libPods-KinTest.a */; };
+		FFBE9B102141F2DF00106D9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B0F2141F2DF00106D9C /* AppDelegate.m */; };
+		FFBE9B132141F2DF00106D9C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B122141F2DF00106D9C /* RootViewController.m */; };
+		FFBE9B162141F2DF00106D9C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B152141F2DF00106D9C /* DataViewController.m */; };
+		FFBE9B192141F2DF00106D9C /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B182141F2DF00106D9C /* ModelController.m */; };
+		FFBE9B1C2141F2DF00106D9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBE9B1A2141F2DF00106D9C /* Main.storyboard */; };
+		FFBE9B1E2141F2DF00106D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBE9B1D2141F2DF00106D9C /* Assets.xcassets */; };
+		FFBE9B212141F2DF00106D9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBE9B1F2141F2DF00106D9C /* LaunchScreen.storyboard */; };
+		FFBE9B242141F2DF00106D9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B232141F2DF00106D9C /* main.m */; };
+		FFBE9B2E2141F2DF00106D9C /* KinTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B2D2141F2DF00106D9C /* KinTestTests.m */; };
+		FFBE9B392141F2DF00106D9C /* KinTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B382141F2DF00106D9C /* KinTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFBE9B2A2141F2DF00106D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBE9B032141F2DE00106D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBE9B0A2141F2DF00106D9C;
+			remoteInfo = KinTest;
+		};
+		FFBE9B352141F2DF00106D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBE9B032141F2DE00106D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBE9B0A2141F2DF00106D9C;
+			remoteInfo = KinTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65FB6F1763B905D54D8F1221 /* Pods-KinTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KinTest/Pods-KinTest.release.xcconfig"; sourceTree = "<group>"; };
+		F453D619F8D4E777BF6D79AA /* libPods-KinTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KinTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD2FD995D40F453E5976D86 /* Pods-KinTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KinTest/Pods-KinTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FFBE9B0B2141F2DF00106D9C /* KinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBE9B0E2141F2DF00106D9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFBE9B0F2141F2DF00106D9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFBE9B112141F2DF00106D9C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FFBE9B122141F2DF00106D9C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		FFBE9B142141F2DF00106D9C /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		FFBE9B152141F2DF00106D9C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		FFBE9B172141F2DF00106D9C /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		FFBE9B182141F2DF00106D9C /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		FFBE9B1B2141F2DF00106D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFBE9B1D2141F2DF00106D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFBE9B202141F2DF00106D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFBE9B222141F2DF00106D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBE9B232141F2DF00106D9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFBE9B292141F2DF00106D9C /* KinTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBE9B2D2141F2DF00106D9C /* KinTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinTestTests.m; sourceTree = "<group>"; };
+		FFBE9B2F2141F2DF00106D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBE9B342141F2DF00106D9C /* KinTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBE9B382141F2DF00106D9C /* KinTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinTestUITests.m; sourceTree = "<group>"; };
+		FFBE9B3A2141F2DF00106D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBE9B082141F2DF00106D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B017739748473787E9769885 /* libPods-KinTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBE9B262141F2DF00106D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBE9B312141F2DF00106D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92E8831DCDF05522715878C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2FD995D40F453E5976D86 /* Pods-KinTest.debug.xcconfig */,
+				65FB6F1763B905D54D8F1221 /* Pods-KinTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4A55B71D9D010376458E84E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F453D619F8D4E777BF6D79AA /* libPods-KinTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFBE9B022141F2DE00106D9C = {
+			isa = PBXGroup;
+			children = (
+				FFBE9B0D2141F2DF00106D9C /* KinTest */,
+				FFBE9B2C2141F2DF00106D9C /* KinTestTests */,
+				FFBE9B372141F2DF00106D9C /* KinTestUITests */,
+				FFBE9B0C2141F2DF00106D9C /* Products */,
+				A92E8831DCDF05522715878C /* Pods */,
+				B4A55B71D9D010376458E84E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBE9B0C2141F2DF00106D9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBE9B0B2141F2DF00106D9C /* KinTest.app */,
+				FFBE9B292141F2DF00106D9C /* KinTestTests.xctest */,
+				FFBE9B342141F2DF00106D9C /* KinTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBE9B0D2141F2DF00106D9C /* KinTest */ = {
+			isa = PBXGroup;
+			children = (
+				FFBE9B0E2141F2DF00106D9C /* AppDelegate.h */,
+				FFBE9B0F2141F2DF00106D9C /* AppDelegate.m */,
+				FFBE9B112141F2DF00106D9C /* RootViewController.h */,
+				FFBE9B122141F2DF00106D9C /* RootViewController.m */,
+				FFBE9B142141F2DF00106D9C /* DataViewController.h */,
+				FFBE9B152141F2DF00106D9C /* DataViewController.m */,
+				FFBE9B172141F2DF00106D9C /* ModelController.h */,
+				FFBE9B182141F2DF00106D9C /* ModelController.m */,
+				FFBE9B1A2141F2DF00106D9C /* Main.storyboard */,
+				FFBE9B1D2141F2DF00106D9C /* Assets.xcassets */,
+				FFBE9B1F2141F2DF00106D9C /* LaunchScreen.storyboard */,
+				FFBE9B222141F2DF00106D9C /* Info.plist */,
+				FFBE9B232141F2DF00106D9C /* main.m */,
+			);
+			path = KinTest;
+			sourceTree = "<group>";
+		};
+		FFBE9B2C2141F2DF00106D9C /* KinTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBE9B2D2141F2DF00106D9C /* KinTestTests.m */,
+				FFBE9B2F2141F2DF00106D9C /* Info.plist */,
+			);
+			path = KinTestTests;
+			sourceTree = "<group>";
+		};
+		FFBE9B372141F2DF00106D9C /* KinTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBE9B382141F2DF00106D9C /* KinTestUITests.m */,
+				FFBE9B3A2141F2DF00106D9C /* Info.plist */,
+			);
+			path = KinTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBE9B0A2141F2DF00106D9C /* KinTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBE9B3D2141F2DF00106D9C /* Build configuration list for PBXNativeTarget "KinTest" */;
+			buildPhases = (
+				E1E7682F19DA2852BD8F3BCB /* [CP] Check Pods Manifest.lock */,
+				FFBE9B072141F2DF00106D9C /* Sources */,
+				FFBE9B082141F2DF00106D9C /* Frameworks */,
+				FFBE9B092141F2DF00106D9C /* Resources */,
+				F3472EF258BA926DA018DC39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinTest;
+			productName = KinTest;
+			productReference = FFBE9B0B2141F2DF00106D9C /* KinTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFBE9B282141F2DF00106D9C /* KinTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBE9B402141F2DF00106D9C /* Build configuration list for PBXNativeTarget "KinTestTests" */;
+			buildPhases = (
+				FFBE9B252141F2DF00106D9C /* Sources */,
+				FFBE9B262141F2DF00106D9C /* Frameworks */,
+				FFBE9B272141F2DF00106D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBE9B2B2141F2DF00106D9C /* PBXTargetDependency */,
+			);
+			name = KinTestTests;
+			productName = KinTestTests;
+			productReference = FFBE9B292141F2DF00106D9C /* KinTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFBE9B332141F2DF00106D9C /* KinTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBE9B432141F2DF00106D9C /* Build configuration list for PBXNativeTarget "KinTestUITests" */;
+			buildPhases = (
+				FFBE9B302141F2DF00106D9C /* Sources */,
+				FFBE9B312141F2DF00106D9C /* Frameworks */,
+				FFBE9B322141F2DF00106D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBE9B362141F2DF00106D9C /* PBXTargetDependency */,
+			);
+			name = KinTestUITests;
+			productName = KinTestUITests;
+			productReference = FFBE9B342141F2DF00106D9C /* KinTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBE9B032141F2DE00106D9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Testing;
+				TargetAttributes = {
+					FFBE9B0A2141F2DF00106D9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FFBE9B282141F2DF00106D9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFBE9B0A2141F2DF00106D9C;
+					};
+					FFBE9B332141F2DF00106D9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFBE9B0A2141F2DF00106D9C;
+					};
+				};
+			};
+			buildConfigurationList = FFBE9B062141F2DE00106D9C /* Build configuration list for PBXProject "KinTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBE9B022141F2DE00106D9C;
+			productRefGroup = FFBE9B0C2141F2DF00106D9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBE9B0A2141F2DF00106D9C /* KinTest */,
+				FFBE9B282141F2DF00106D9C /* KinTestTests */,
+				FFBE9B332141F2DF00106D9C /* KinTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBE9B092141F2DF00106D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBE9B212141F2DF00106D9C /* LaunchScreen.storyboard in Resources */,
+				FFBE9B1E2141F2DF00106D9C /* Assets.xcassets in Resources */,
+				FFBE9B1C2141F2DF00106D9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBE9B272141F2DF00106D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBE9B322141F2DF00106D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1E7682F19DA2852BD8F3BCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KinTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3472EF258BA926DA018DC39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KinTest/Pods-KinTest-resources.sh",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/arrowRight.imageset/arrowRight.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/arrowRight.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/back.imageset/back.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/back.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/closeIcon.imageset/closeIcon.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/closeIcon.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/coins.imageset/coins.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/coins.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/combinedShape.imageset/combinedShape.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/combinedShape.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond1.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond1.imageset/diamond1.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond2.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond2.imageset/diamond2.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond3.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond3.imageset/diamond3.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamondsChest.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamondsChest.imageset/diamondsChest@2x.png",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamondsChest.imageset/diamondsChest@3x.png",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/invoice.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/invoice.imageset/invoice.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/kinlogo.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/kinlogo.imageset/kinlogo.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/kinnlogo.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/kinnlogo.imageset/kinnlogo.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/whatsKin.imageset/Contents.json",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/whatsKin.imageset/whatsKin.pdf",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/BalanceViewController.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/CouponViewController.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/EarnOfferCell.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/InsufficientFundsViewController.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/KinNavigationViewController.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/MarketplaceViewController.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/OrderCell.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/OrdersViewController.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/SpendOfferCell.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/SpendOfferViewController.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/WelcomeViewController.xib",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets",
+				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Model/KinEcosystem.xcdatamodeld",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arrowRight.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contents.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/back.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/closeIcon.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/coins.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/combinedShape.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamond1.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamond2.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamond3.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamondsChest@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamondsChest@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/invoice.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/kinlogo.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/kinnlogo.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/whatsKin.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BalanceViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CouponViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EarnOfferCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InsufficientFundsViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KinNavigationViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MarketplaceViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OrderCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OrdersViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SpendOfferCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SpendOfferViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WelcomeViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KinEcosystem.momd",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinTest/Pods-KinTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBE9B072141F2DF00106D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBE9B242141F2DF00106D9C /* main.m in Sources */,
+				FFBE9B132141F2DF00106D9C /* RootViewController.m in Sources */,
+				FFBE9B192141F2DF00106D9C /* ModelController.m in Sources */,
+				FFBE9B162141F2DF00106D9C /* DataViewController.m in Sources */,
+				FFBE9B102141F2DF00106D9C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBE9B252141F2DF00106D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBE9B2E2141F2DF00106D9C /* KinTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBE9B302141F2DF00106D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBE9B392141F2DF00106D9C /* KinTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFBE9B2B2141F2DF00106D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBE9B0A2141F2DF00106D9C /* KinTest */;
+			targetProxy = FFBE9B2A2141F2DF00106D9C /* PBXContainerItemProxy */;
+		};
+		FFBE9B362141F2DF00106D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBE9B0A2141F2DF00106D9C /* KinTest */;
+			targetProxy = FFBE9B352141F2DF00106D9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFBE9B1A2141F2DF00106D9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBE9B1B2141F2DF00106D9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFBE9B1F2141F2DF00106D9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBE9B202141F2DF00106D9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFBE9B3B2141F2DF00106D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFBE9B3C2141F2DF00106D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBE9B3E2141F2DF00106D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD2FD995D40F453E5976D86 /* Pods-KinTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89J7DC26T6;
+				INFOPLIST_FILE = KinTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.KinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFBE9B3F2141F2DF00106D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FB6F1763B905D54D8F1221 /* Pods-KinTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89J7DC26T6;
+				INFOPLIST_FILE = KinTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.KinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFBE9B412141F2DF00106D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KinTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.KinTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinTest.app/KinTest";
+			};
+			name = Debug;
+		};
+		FFBE9B422141F2DF00106D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KinTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.KinTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinTest.app/KinTest";
+			};
+			name = Release;
+		};
+		FFBE9B442141F2DF00106D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KinTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.KinTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KinTest;
+			};
+			name = Debug;
+		};
+		FFBE9B452141F2DF00106D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KinTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.KinTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KinTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBE9B062141F2DE00106D9C /* Build configuration list for PBXProject "KinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBE9B3B2141F2DF00106D9C /* Debug */,
+				FFBE9B3C2141F2DF00106D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBE9B3D2141F2DF00106D9C /* Build configuration list for PBXNativeTarget "KinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBE9B3E2141F2DF00106D9C /* Debug */,
+				FFBE9B3F2141F2DF00106D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBE9B402141F2DF00106D9C /* Build configuration list for PBXNativeTarget "KinTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBE9B412141F2DF00106D9C /* Debug */,
+				FFBE9B422141F2DF00106D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBE9B432141F2DF00106D9C /* Build configuration list for PBXNativeTarget "KinTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBE9B442141F2DF00106D9C /* Debug */,
+				FFBE9B452141F2DF00106D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBE9B032141F2DE00106D9C /* Project object */;
+}

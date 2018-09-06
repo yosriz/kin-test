@@ -1,0 +1,1 @@
+../../../KinCoreSDK/KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_sign_edwards25519sha512batch.h
