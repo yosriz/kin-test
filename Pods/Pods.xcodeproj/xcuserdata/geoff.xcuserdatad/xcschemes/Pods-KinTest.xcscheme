@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "80C7571941F3D4FE1491BB24BA60B90A"
-               BuildableName = "libPods-KinTest.a"
+               BlueprintIdentifier = "5ACBE28F5E646A5081F46030EB34C3E5"
+               BuildableName = "Pods_KinTest.framework"
                BlueprintName = "Pods-KinTest"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "80C7571941F3D4FE1491BB24BA60B90A"
-            BuildableName = "libPods-KinTest.a"
+            BlueprintIdentifier = "5ACBE28F5E646A5081F46030EB34C3E5"
+            BuildableName = "Pods_KinTest.framework"
             BlueprintName = "Pods-KinTest"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

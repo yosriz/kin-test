@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "58F87B7D5774D461BB295DC479FC713B"
-               BuildableName = "libSimpleCoreDataStack.a"
+               BlueprintIdentifier = "EC8FC6D011846233D678E74AB8A274AC"
+               BuildableName = "CoreDataStack.framework"
                BlueprintName = "SimpleCoreDataStack"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "58F87B7D5774D461BB295DC479FC713B"
-            BuildableName = "libSimpleCoreDataStack.a"
+            BlueprintIdentifier = "EC8FC6D011846233D678E74AB8A274AC"
+            BuildableName = "CoreDataStack.framework"
             BlueprintName = "SimpleCoreDataStack"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B017739748473787E9769885 /* libPods-KinTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F453D619F8D4E777BF6D79AA /* libPods-KinTest.a */; };
+		040ACCA3A90DAA5AFAD2EC78 /* Pods_KinTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8075379B537B2D574F0B594 /* Pods_KinTest.framework */; };
 		FFBE9B102141F2DF00106D9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B0F2141F2DF00106D9C /* AppDelegate.m */; };
 		FFBE9B132141F2DF00106D9C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B122141F2DF00106D9C /* RootViewController.m */; };
 		FFBE9B162141F2DF00106D9C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE9B152141F2DF00106D9C /* DataViewController.m */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		65FB6F1763B905D54D8F1221 /* Pods-KinTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KinTest/Pods-KinTest.release.xcconfig"; sourceTree = "<group>"; };
-		F453D619F8D4E777BF6D79AA /* libPods-KinTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KinTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8075379B537B2D574F0B594 /* Pods_KinTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD2FD995D40F453E5976D86 /* Pods-KinTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KinTest/Pods-KinTest.debug.xcconfig"; sourceTree = "<group>"; };
 		FFBE9B0B2141F2DF00106D9C /* KinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBE9B0E2141F2DF00106D9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B017739748473787E9769885 /* libPods-KinTest.a in Frameworks */,
+				040ACCA3A90DAA5AFAD2EC78 /* Pods_KinTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		B4A55B71D9D010376458E84E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F453D619F8D4E777BF6D79AA /* libPods-KinTest.a */,
+				B8075379B537B2D574F0B594 /* Pods_KinTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 				FFBE9B072141F2DF00106D9C /* Sources */,
 				FFBE9B082141F2DF00106D9C /* Frameworks */,
 				FFBE9B092141F2DF00106D9C /* Resources */,
-				F3472EF258BA926DA018DC39 /* [CP] Copy Pods Resources */,
+				AD93B0FBC2B0EFBB518DDBD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +297,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		AD93B0FBC2B0EFBB518DDBD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KinTest/Pods-KinTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KinCoreSDK/KinCoreSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/KinDevPlatform/KinDevPlatform.framework",
+				"${BUILT_PRODUCTS_DIR}/KinUtil/KinUtil.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleCoreDataStack/CoreDataStack.framework",
+				"${BUILT_PRODUCTS_DIR}/StellarErrors/StellarErrors.framework",
+				"${BUILT_PRODUCTS_DIR}/StellarKit/StellarKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KinCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KinDevPlatform.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KinUtil.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreDataStack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StellarErrors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StellarKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinTest/Pods-KinTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E1E7682F19DA2852BD8F3BCB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,91 +341,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3472EF258BA926DA018DC39 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KinTest/Pods-KinTest-resources.sh",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/arrowRight.imageset/arrowRight.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/arrowRight.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/back.imageset/back.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/back.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/closeIcon.imageset/closeIcon.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/closeIcon.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/coins.imageset/coins.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/coins.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/combinedShape.imageset/combinedShape.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/combinedShape.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond1.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond1.imageset/diamond1.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond2.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond2.imageset/diamond2.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond3.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamond3.imageset/diamond3.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamondsChest.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamondsChest.imageset/diamondsChest@2x.png",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/diamondsChest.imageset/diamondsChest@3x.png",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/invoice.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/invoice.imageset/invoice.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/kinlogo.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/kinlogo.imageset/kinlogo.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/kinnlogo.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/kinnlogo.imageset/kinnlogo.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/whatsKin.imageset/Contents.json",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets/whatsKin.imageset/whatsKin.pdf",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/BalanceViewController.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/CouponViewController.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/EarnOfferCell.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/InsufficientFundsViewController.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/KinNavigationViewController.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/MarketplaceViewController.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/OrderCell.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/OrdersViewController.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/SpendOfferCell.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/SpendOfferViewController.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/View/nibs/WelcomeViewController.xib",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Assets.xcassets",
-				"${PODS_ROOT}/KinDevPlatform/KinEcosystem/Model/KinEcosystem.xcdatamodeld",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arrowRight.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contents.json",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/back.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/closeIcon.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/coins.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/combinedShape.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamond1.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamond2.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamond3.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamondsChest@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/diamondsChest@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/invoice.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/kinlogo.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/kinnlogo.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/whatsKin.pdf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BalanceViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CouponViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EarnOfferCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InsufficientFundsViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KinNavigationViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MarketplaceViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OrderCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OrdersViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SpendOfferCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SpendOfferViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WelcomeViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KinEcosystem.momd",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinTest/Pods-KinTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

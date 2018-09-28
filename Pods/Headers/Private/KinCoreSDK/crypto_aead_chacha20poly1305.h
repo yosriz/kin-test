@@ -1,1 +1,0 @@
-../../../KinCoreSDK/KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_aead_chacha20poly1305.h

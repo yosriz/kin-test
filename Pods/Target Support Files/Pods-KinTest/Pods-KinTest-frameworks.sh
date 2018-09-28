@@ -141,6 +141,23 @@ strip_invalid_archs() {
   STRIP_BINARY_RETVAL=1
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/KinCoreSDK/KinCoreSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KinDevPlatform/KinDevPlatform.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KinUtil/KinUtil.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SimpleCoreDataStack/CoreDataStack.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StellarErrors/StellarErrors.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StellarKit/StellarKit.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/KinCoreSDK/KinCoreSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KinDevPlatform/KinDevPlatform.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KinUtil/KinUtil.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SimpleCoreDataStack/CoreDataStack.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StellarErrors/StellarErrors.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StellarKit/StellarKit.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

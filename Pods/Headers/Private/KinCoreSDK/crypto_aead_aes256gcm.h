@@ -1,1 +1,0 @@
-../../../KinCoreSDK/KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_aead_aes256gcm.h
