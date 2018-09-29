@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -432,7 +432,7 @@
 		1CA92CC94A054BA2A2E94F714F2BC146 /* earn_order_creation_requested.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = earn_order_creation_requested.swift; path = KinEcosystem/BI/client/earn_order_creation_requested.swift; sourceTree = "<group>"; };
 		1DDFF8BBFF1BD543C0C32685E99830E1 /* crypto_aead_chacha20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_aead_chacha20poly1305.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_aead_chacha20poly1305.h"; sourceTree = "<group>"; };
 		1E628443B164A739B3E4F47C52201248 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = KinUtil/KinUtil/source/Observable.swift; sourceTree = "<group>"; };
-		1F1058852E603C59B6D54204AC197BD4 /* KinUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KinUtil.framework; path = KinUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1058852E603C59B6D54204AC197BD4 /* KinUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KinUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAEF76987D9930022D73350EDDAE7C4 /* KinClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KinClient.swift; path = KinSDK/KinSDK/source/KinClient.swift; sourceTree = "<group>"; };
 		217DC37282AD6F5F15DFD14B1F2FD441 /* Data+extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+extensions.swift"; path = "StellarKit/source/Data+extensions.swift"; sourceTree = "<group>"; };
 		218A06C4BEDB857A01E3EE397BD1FF49 /* KinCoreSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KinCoreSDK-umbrella.h"; sourceTree = "<group>"; };
@@ -509,7 +509,7 @@
 		5EBFB74001B6980503145565169417CC /* KinEcosystem.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = KinEcosystem.xcdatamodel; sourceTree = "<group>"; };
 		5F6BB3F511353F8CDC437C25E3017943 /* confirm_purchase_button_tapped.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = confirm_purchase_button_tapped.swift; path = KinEcosystem/BI/client/confirm_purchase_button_tapped.swift; sourceTree = "<group>"; };
 		5FBA1CA96B27935B6962F357FADDA625 /* Pods-KinTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KinTest-umbrella.h"; sourceTree = "<group>"; };
-		5FC58B5A1E429C4CDE195CFA5176AE3B /* StellarErrors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StellarErrors.framework; path = StellarErrors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC58B5A1E429C4CDE195CFA5176AE3B /* StellarErrors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StellarErrors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCB30281B5759C1210BAD3112FC9D2B /* OrderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderError.swift; path = KinEcosystem/Model/OrderError.swift; sourceTree = "<group>"; };
 		605156CFFCD1680D70C8147C9DE4DB92 /* Transaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = StellarKit/source/types/Transaction.swift; sourceTree = "<group>"; };
 		6074814FB1AAAB32B40A024403C043F6 /* KeyExchange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyExchange.swift; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/KeyExchange.swift"; sourceTree = "<group>"; };
@@ -521,7 +521,7 @@
 		66F613DFF549ED80A9A97EA81E96E486 /* KeyUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyUtils.swift; path = StellarKit/source/KeyUtils.swift; sourceTree = "<group>"; };
 		678372496FD6E7385F6993BFB2258443 /* StellarKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StellarKit.modulemap; sourceTree = "<group>"; };
 		6849B66AB2F81444341FDC00CD965C2B /* StellarKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StellarKit-umbrella.h"; sourceTree = "<group>"; };
-		68B901AFA33FC5D929D345C31861CA7A /* KinCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KinCoreSDK.framework; path = KinCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B901AFA33FC5D929D345C31861CA7A /* KinCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KinCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69491A0944EEA33A6A9B35EC44AAD3A7 /* Offer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Offer.swift; path = KinEcosystem/Model/Offer.swift; sourceTree = "<group>"; };
 		695EBE45D6A6277250F716F004870792 /* crypto_box_curve25519xchacha20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_box_curve25519xchacha20poly1305.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_box_curve25519xchacha20poly1305.h"; sourceTree = "<group>"; };
 		6AA77358A70FF2044B2AE503AE8C9302 /* KinDevPlatform-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KinDevPlatform-dummy.m"; sourceTree = "<group>"; };
@@ -544,7 +544,7 @@
 		77D5C22A651F88D07C3B311FBA7D4056 /* CoreDataStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = CoreDataStack/CoreDataStack/Source/CoreDataStack.swift; sourceTree = "<group>"; };
 		787322D1F6E6F24BD0252F3B443492ED /* earn_offer_tapped.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = earn_offer_tapped.swift; path = KinEcosystem/BI/client/earn_offer_tapped.swift; sourceTree = "<group>"; };
 		796DDD31918BCA8F47B10F9702631AA0 /* Iso8601DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Iso8601DateFormatter.swift; path = KinEcosystem/Core/Iso8601DateFormatter.swift; sourceTree = "<group>"; };
-		7AEC0E5B9AE130230A4340B7C3BC29E5 /* KinDevPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KinDevPlatform.framework; path = KinDevPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEC0E5B9AE130230A4340B7C3BC29E5 /* KinDevPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KinDevPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1642FDC368CEF9E84324D42B3112DF /* crypto_sign_edwards25519sha512batch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_sign_edwards25519sha512batch.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_sign_edwards25519sha512batch.h"; sourceTree = "<group>"; };
 		7CB7CADC246AED0944EC0552E1B2B113 /* Sodium.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sodium.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/Sodium.h"; sourceTree = "<group>"; };
 		7DBA49C9A0FCC33E81AC6B813CFAF689 /* spend_order_completion_submitted.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = spend_order_completion_submitted.swift; path = KinEcosystem/BI/client/spend_order_completion_submitted.swift; sourceTree = "<group>"; };
@@ -571,7 +571,7 @@
 		8AB31A5FA8395132661B33AE15D1C3D3 /* crypto_verify_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_verify_64.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_verify_64.h"; sourceTree = "<group>"; };
 		8AC3BF3B397B32FFB106D022AF275B3D /* KBIEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KBIEvent.swift; path = KinEcosystem/BI/KBIEvent.swift; sourceTree = "<group>"; };
 		8AFC67F73336423A842AFD840901EF7C /* SpendOfferViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpendOfferViewController.swift; path = KinEcosystem/View/notNibs/SpendOfferViewController.swift; sourceTree = "<group>"; };
-		8C0E35F43ED70A1AE06050C9B03DAB17 /* CoreDataStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoreDataStack.framework; path = SimpleCoreDataStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0E35F43ED70A1AE06050C9B03DAB17 /* CoreDataStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D051FC942133F20FEC1154AAAA756B2 /* general_ecosystem_sdk_error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = general_ecosystem_sdk_error.swift; path = KinEcosystem/BI/client/general_ecosystem_sdk_error.swift; sourceTree = "<group>"; };
 		8D651DB27D4D2358F0A42C7D00249B92 /* KinCoreSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KinCoreSDK-dummy.m"; sourceTree = "<group>"; };
 		8FD59F35D4CD6B129864C1A781C4AE46 /* randombytes_salsa20_random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randombytes_salsa20_random.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/randombytes_salsa20_random.h"; sourceTree = "<group>"; };
@@ -583,7 +583,7 @@
 		92AF058BABE8DE60793138E2677BC277 /* crypto_hash_sha512.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_hash_sha512.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_hash_sha512.h"; sourceTree = "<group>"; };
 		92D642FF002AF735FC87A698AE4982ED /* SimpleCoreDataStack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCoreDataStack.xcconfig; sourceTree = "<group>"; };
 		92F1EB927DF1C67A8AE7F4A933B3B7EE /* Pods-KinTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KinTest.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D9AEFAAD373BB623B43DADC16273F8 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = KinEcosystem/Core/Reachability.swift; sourceTree = "<group>"; };
 		94AA15848AE5CC5B89265FC5399E8D74 /* CouponViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CouponViewModel.swift; path = KinEcosystem/ViewModel/CouponViewModel.swift; sourceTree = "<group>"; };
 		9646FE3697844E4804779EC245CC0C0C /* crypto_pwhash_argon2id.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_pwhash_argon2id.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_pwhash_argon2id.h"; sourceTree = "<group>"; };
@@ -621,7 +621,7 @@
 		B647C024AC4379EC363F17E091CA73D2 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = KinEcosystem/Core/Core.swift; sourceTree = "<group>"; };
 		B6CC477E93B5A7A44FBE3D4D5EAE96AB /* confirm_purchase_page_viewed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = confirm_purchase_page_viewed.swift; path = KinEcosystem/BI/client/confirm_purchase_page_viewed.swift; sourceTree = "<group>"; };
 		B7AE0186393385D58E8EB2AEB98162A3 /* KinError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KinError.swift; path = KinSDK/KinSDK/source/KinError.swift; sourceTree = "<group>"; };
-		B9FD63DBB4D61F11FB141813F7E2D14C /* StellarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StellarKit.framework; path = StellarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FD63DBB4D61F11FB141813F7E2D14C /* StellarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StellarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA34A0D09E2FC77D0DF0AD0740674011 /* KinUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KinUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABAB90577B82A13C27CAFB436CA45AC /* wallet_creation_succeeded.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wallet_creation_succeeded.swift; path = KinEcosystem/BI/client/wallet_creation_succeeded.swift; sourceTree = "<group>"; };
 		BABD75F08C0DD9895DA1A9E7CE30858B /* types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = types.swift; path = KinEcosystem/BI/client/types.swift; sourceTree = "<group>"; };
@@ -652,7 +652,7 @@
 		CD51B8CBC28178B3E91F678B64ADEAF2 /* crypto_aead_xchacha20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_aead_xchacha20poly1305.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_aead_xchacha20poly1305.h"; sourceTree = "<group>"; };
 		CD52F10FD71844E4C586D5CF2FCB8FA3 /* spend_order_failed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = spend_order_failed.swift; path = KinEcosystem/BI/client/spend_order_failed.swift; sourceTree = "<group>"; };
 		CDD86EABEB0568FE06C0149FF2FF7130 /* CGPoint+functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+functions.swift"; path = "KinEcosystem/extensions/CGPoint+functions.swift"; sourceTree = "<group>"; };
-		CEE836E24D9D7D2AAE5C9592233C3332 /* Pods_KinTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KinTest.framework; path = "Pods-KinTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE836E24D9D7D2AAE5C9592233C3332 /* Pods_KinTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00E2D5848EAEC15E7C7A05193712BF6 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/Utils.swift"; sourceTree = "<group>"; };
 		D011C8F60894473CB5B84AF8F2290A29 /* crypto_onetimeauth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_onetimeauth.h; path = "KinSDK/KinSDK/source/third-party/swift-sodium/Sodium/libsodium/crypto_onetimeauth.h"; sourceTree = "<group>"; };
 		D0152129BF39A667529918C62B9979DC /* WrappedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WrappedData.swift; path = StellarKit/source/types/WrappedData.swift; sourceTree = "<group>"; };
@@ -804,7 +804,6 @@
 				6E658DD6556FB65D093FBFFF9D873951 /* XDRCodable.swift */,
 				9EAEEF52A1CE36EF214B08AFF337EC48 /* Support Files */,
 			);
-			name = StellarKit;
 			path = StellarKit;
 			sourceTree = "<group>";
 		};
@@ -871,7 +870,6 @@
 				036A77E79E0472C1F955B8FA13148450 /* Errors.swift */,
 				DA115BA1596B3BA1739224BB1D62ED26 /* Support Files */,
 			);
-			name = StellarErrors;
 			path = StellarErrors;
 			sourceTree = "<group>";
 		};
@@ -918,7 +916,6 @@
 				BF9ACBC9C87D6BFB265AD5CA0F6DB23E /* Utility.swift */,
 				EDD72DD45BE2772ABB4203728A2C11B8 /* Support Files */,
 			);
-			name = KinUtil;
 			path = KinUtil;
 			sourceTree = "<group>";
 		};
@@ -1046,7 +1043,6 @@
 				712AC17EE0701BBED4ECA08597CF7999 /* Resources */,
 				AA702C99563B35DC0B89A2E092A00EBE /* Support Files */,
 			);
-			name = KinDevPlatform;
 			path = KinDevPlatform;
 			sourceTree = "<group>";
 		};
@@ -1088,7 +1084,6 @@
 				F2A47BBCB8F728BB77E4E2253F21C979 /* NSPredicate+extensions.swift */,
 				18567FDB37B9969CC18ED2BF0010DE54 /* Support Files */,
 			);
-			name = SimpleCoreDataStack;
 			path = SimpleCoreDataStack;
 			sourceTree = "<group>";
 		};
@@ -1187,7 +1182,6 @@
 				561473E3B2F0AD756586E79D3CA0260D /* Frameworks */,
 				67E3A121505ADD032F4E49874598FA8A /* Support Files */,
 			);
-			name = KinCoreSDK;
 			path = KinCoreSDK;
 			sourceTree = "<group>";
 		};
@@ -2061,6 +2055,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -2357,6 +2352,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -2572,6 +2568,7 @@
 			children = (
 				5EBFB74001B6980503145565169417CC /* KinEcosystem.xcdatamodel */,
 			);
+			currentVersion = 5EBFB74001B6980503145565169417CC /* KinEcosystem.xcdatamodel */;
 			name = KinEcosystem.xcdatamodeld;
 			path = KinEcosystem/Model/KinEcosystem.xcdatamodeld;
 			sourceTree = "<group>";
